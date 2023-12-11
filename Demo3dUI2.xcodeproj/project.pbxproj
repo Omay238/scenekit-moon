@@ -8,10 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		83163AB72B19036A00ADE205 /* ExtSCNVector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83163AB62B19036A00ADE205 /* ExtSCNVector3.swift */; };
-		8336F1902B1F91B2009A8EE8 /* height.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8336F18F2B1F91B2009A8EE8 /* height.csv */; };
-		8370BA9A2B1A491600B73D74 /* DoubleFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8370BA992B1A491600B73D74 /* DoubleFile.swift */; };
-		9F9931E72AEF2F2400FF934D /* Demo3dUI2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9931E62AEF2F2400FF934D /* Demo3dUI2App.swift */; };
-		9F9931E92AEF2F2400FF934D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9931E82AEF2F2400FF934D /* ContentView.swift */; };
+		8368336A2B2235F9006D1CE0 /* LatLong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836833632B2235F8006D1CE0 /* LatLong.swift */; };
+		8368336B2B2235F9006D1CE0 /* moonImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 836833642B2235F8006D1CE0 /* moonImage.png */; };
+		8368336C2B2235F9006D1CE0 /* DoubleFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836833652B2235F8006D1CE0 /* DoubleFile.swift */; };
+		8368336D2B2235F9006D1CE0 /* nasaapptest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836833662B2235F8006D1CE0 /* nasaapptest.swift */; };
+		8368336F2B2235F9006D1CE0 /* SizeCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836833682B2235F8006D1CE0 /* SizeCalc.swift */; };
+		836833722B22361E006D1CE0 /* app.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836833712B22361E006D1CE0 /* app.swift */; };
+		836833762B2236C5006D1CE0 /* height.csv in Resources */ = {isa = PBXBuildFile; fileRef = 836833732B2236BC006D1CE0 /* height.csv */; };
+		836833772B2236C5006D1CE0 /* latitude.csv in Resources */ = {isa = PBXBuildFile; fileRef = 836833742B2236C1006D1CE0 /* latitude.csv */; };
+		836833782B2236C5006D1CE0 /* longitude.csv in Resources */ = {isa = PBXBuildFile; fileRef = 836833752B2236C5006D1CE0 /* longitude.csv */; };
+		8368337A2B223792006D1CE0 /* index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836833792B223792006D1CE0 /* index.swift */; };
+		9F9931E92AEF2F2400FF934D /* Demo3dUI2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9931E82AEF2F2400FF934D /* Demo3dUI2.swift */; };
 		9F9931EB2AEF2F2600FF934D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F9931EA2AEF2F2600FF934D /* Assets.xcassets */; };
 		9F9931EE2AEF2F2600FF934D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F9931ED2AEF2F2600FF934D /* Preview Assets.xcassets */; };
 		9F9931F82AEF2F2700FF934D /* Demo3dUI2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9931F72AEF2F2700FF934D /* Demo3dUI2Tests.swift */; };
@@ -39,11 +46,18 @@
 
 /* Begin PBXFileReference section */
 		83163AB62B19036A00ADE205 /* ExtSCNVector3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtSCNVector3.swift; sourceTree = "<group>"; };
-		8336F18F2B1F91B2009A8EE8 /* height.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = height.csv; sourceTree = "<group>"; };
-		8370BA992B1A491600B73D74 /* DoubleFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleFile.swift; sourceTree = "<group>"; };
+		836833632B2235F8006D1CE0 /* LatLong.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatLong.swift; sourceTree = "<group>"; };
+		836833642B2235F8006D1CE0 /* moonImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moonImage.png; sourceTree = "<group>"; };
+		836833652B2235F8006D1CE0 /* DoubleFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DoubleFile.swift; path = ../../../Downloads/nasaapptest/nasaapptest/DoubleFile.swift; sourceTree = "<group>"; };
+		836833662B2235F8006D1CE0 /* nasaapptest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = nasaapptest.swift; path = ../../../Downloads/nasaapptest/nasaapptest/nasaapptest.swift; sourceTree = "<group>"; };
+		836833682B2235F8006D1CE0 /* SizeCalc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeCalc.swift; sourceTree = "<group>"; };
+		836833712B22361E006D1CE0 /* app.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app.swift; sourceTree = "<group>"; };
+		836833732B2236BC006D1CE0 /* height.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = height.csv; sourceTree = "<group>"; };
+		836833742B2236C1006D1CE0 /* latitude.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = latitude.csv; sourceTree = "<group>"; };
+		836833752B2236C5006D1CE0 /* longitude.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = longitude.csv; sourceTree = "<group>"; };
+		836833792B223792006D1CE0 /* index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = index.swift; sourceTree = "<group>"; };
 		9F9931E32AEF2F2400FF934D /* Demo3dUI2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo3dUI2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F9931E62AEF2F2400FF934D /* Demo3dUI2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo3dUI2App.swift; sourceTree = "<group>"; };
-		9F9931E82AEF2F2400FF934D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9F9931E82AEF2F2400FF934D /* Demo3dUI2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo3dUI2.swift; sourceTree = "<group>"; };
 		9F9931EA2AEF2F2600FF934D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F9931ED2AEF2F2600FF934D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9F9931F32AEF2F2700FF934D /* Demo3dUI2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo3dUI2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,14 +116,21 @@
 		9F9931E52AEF2F2400FF934D /* Demo3dUI2 */ = {
 			isa = PBXGroup;
 			children = (
-				8336F18F2B1F91B2009A8EE8 /* height.csv */,
-				9F9931E62AEF2F2400FF934D /* Demo3dUI2App.swift */,
-				9F9931E82AEF2F2400FF934D /* ContentView.swift */,
+				836833732B2236BC006D1CE0 /* height.csv */,
+				836833742B2236C1006D1CE0 /* latitude.csv */,
+				836833752B2236C5006D1CE0 /* longitude.csv */,
+				836833662B2235F8006D1CE0 /* nasaapptest.swift */,
+				836833652B2235F8006D1CE0 /* DoubleFile.swift */,
+				836833632B2235F8006D1CE0 /* LatLong.swift */,
+				836833642B2235F8006D1CE0 /* moonImage.png */,
+				836833682B2235F8006D1CE0 /* SizeCalc.swift */,
+				9F9931E82AEF2F2400FF934D /* Demo3dUI2.swift */,
 				9F9932122AEF4AAD00FF934D /* art2.scnassets */,
 				9F9931EA2AEF2F2600FF934D /* Assets.xcassets */,
 				9F9931EC2AEF2F2600FF934D /* Preview Content */,
 				83163AB62B19036A00ADE205 /* ExtSCNVector3.swift */,
-				8370BA992B1A491600B73D74 /* DoubleFile.swift */,
+				836833712B22361E006D1CE0 /* app.swift */,
+				836833792B223792006D1CE0 /* index.swift */,
 			);
 			path = Demo3dUI2;
 			sourceTree = "<group>";
@@ -243,8 +264,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8368336B2B2235F9006D1CE0 /* moonImage.png in Resources */,
+				836833762B2236C5006D1CE0 /* height.csv in Resources */,
+				836833772B2236C5006D1CE0 /* latitude.csv in Resources */,
+				836833782B2236C5006D1CE0 /* longitude.csv in Resources */,
 				9F9932132AEF4AAD00FF934D /* art2.scnassets in Resources */,
-				8336F1902B1F91B2009A8EE8 /* height.csv in Resources */,
 				9F9931EE2AEF2F2600FF934D /* Preview Assets.xcassets in Resources */,
 				9F9931EB2AEF2F2600FF934D /* Assets.xcassets in Resources */,
 			);
@@ -271,10 +295,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F9931E92AEF2F2400FF934D /* ContentView.swift in Sources */,
+				8368336C2B2235F9006D1CE0 /* DoubleFile.swift in Sources */,
+				9F9931E92AEF2F2400FF934D /* Demo3dUI2.swift in Sources */,
+				8368336D2B2235F9006D1CE0 /* nasaapptest.swift in Sources */,
 				83163AB72B19036A00ADE205 /* ExtSCNVector3.swift in Sources */,
-				9F9931E72AEF2F2400FF934D /* Demo3dUI2App.swift in Sources */,
-				8370BA9A2B1A491600B73D74 /* DoubleFile.swift in Sources */,
+				836833722B22361E006D1CE0 /* app.swift in Sources */,
+				8368336A2B2235F9006D1CE0 /* LatLong.swift in Sources */,
+				8368337A2B223792006D1CE0 /* index.swift in Sources */,
+				8368336F2B2235F9006D1CE0 /* SizeCalc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
